@@ -1,0 +1,40 @@
+"Window":{
+backgroundColor:'#0000FF',
+ layout:'vertical'
+},
+"TableView":{
+width:Ti.UI.FILL,
+height:Ti.UI.FILL,
+rowHeight:50,
+backgroundColor:'yellow'
+},
+"TableViewRow":{
+backgroundColor:'transparent',
+width:Ti.UI.FILL,
+height:80
+},
+"TextField":{
+width:'49%',
+ height:Ti.UI.FILL,
+right:0,
+borderColor:'black',
+autocorrect:true
+},
+".degreeyearnameimagelabel":{
+backgroundColor:'#EE4439',
+width:'50%',
+height:Ti.UI.FILL,
+textAlign:'left',
+left:0,
+color:'black',
+font:{
+fontSize:16,
+fontWeight:'semibold'}
+},
+".upload":{
+	width:100,
+	height:50,
+	right:20
+	
+}
+

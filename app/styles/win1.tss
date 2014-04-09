@@ -1,0 +1,146 @@
+"Window":{
+backgroundColor:'#0000FF',
+  layout:'vertical'
+},
+"TableView":{
+width:Ti.UI.FILL,
+height:Ti.UI.FILL,
+rowHeight:50,
+backgroundColor:'yellow',
+editable:true,
+},
+"TableViewRow":{
+backgroundColor:'red',
+width:Ti.UI.FILL,
+height:80
+},
+".namegenderdobaboutlabel":{
+backgroundColor:'#EE4439',
+width:'50%',
+height:Ti.UI.FILL,
+textAlign:'left',
+left:0,
+color:'black',
+font:{
+fontSize:16,
+fontWeight:'semibold'}
+},
+
+".genderContainer":{
+layout:'vertical',
+backgroundColor:'green',
+width:'50%',
+right:0
+},
+".genderContainer1":{
+layout:'horizontal',
+borderColor:'black',
+borderWidth:2,
+width:Ti.UI.FILL,
+height:'50%',
+backgroundColor:'white'
+},
+".genderContainer2":{
+layout:'horizontal',
+borderColor:'black',
+borderWidth:2,
+width:Ti.UI.FILL,
+height:'50%',
+backgroundColor:'white'
+},
+"TextField":{
+width:'49%',
+ height:Ti.UI.FILL,
+right:0,
+borderColor:'black',
+autocorrect:true
+},
+"TextArea":{
+width:'49%',
+height:Ti.UI.FILL,
+right:0,
+borderColor:'black',
+autocorrect:true
+ },
+"#dobText":{
+ editable:false	
+ },
+ 
+// "#firstNamelabel":{
+// text:'First Name'
+// },
+// "#firstNameText":{
+// backgroundColor:'red'
+// },
+// "#lastNameLabel":{
+// text:'Last Name'
+// },
+// "#lastNameText":{
+// backgroundColor:'red'
+// },
+// "#genderLabel":{
+// text:'Gender',
+// left:0,
+// },
+// "#dobLabel":{
+// text:'Date of Birth'
+// },
+ // "#male":{
+// value:true,
+// left:'50%'
+//  
+ // },
+  // "#female":{
+  // value:true,
+  // left:'49%'
+ // },
+ // ".switch":{
+ // width:'50%',
+// value:false	
+	 // },
+
+".switchLabel":{
+width:'50%',
+height:Ti.UI.FILL,
+textAlign:'left',
+left:0,
+color:'black',
+font:{
+fontSize:16,
+fontWeight:'semibold'}	},
+".pickerContainer":{
+	
+},
+"#slide1":{
+	top:5
+}
+
+
+ 
+// ".switchlabel":{
+// size:Ti.UI.SIZE	,
+// backgroundColor:'green'
+// },
+ 
+// ".genderContainer":{
+// layout:'vertical'
+// },
+// ".genderContainer1":{
+// layout:'horizontal'
+// },
+// 
+// ".genderContainer2":{
+// layout:'horizontal'
+// }
+// 
+// 
+// 
+// "#firstNameText":{
+// keyboardType:Ti.UI.KEYBOARD_NUMBER_PAD
+                // },
+// "#lastNameText":{
+// keyboardType:Ti.UI.KEYBOARD_NUMBER_PAD	
+                // }
+
+
+

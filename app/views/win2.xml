@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="win2" class="win2">
+		<Slider id="slide2" class="slide2"></Slider>
+		<TableView id="tableview" class="tableview">
+			<TableViewRow id="degreeRow" class="row">
+				<Label id="degreelabel" class="degreeyearnameimagelabel">Degree</Label>
+				<TextField id="degreeText" class="textField"></TextField>
+			</TableViewRow>
+			<TableViewRow id="passingYearRow" class="row">
+				<Label id="passingYearlabel" class="degreeyearnameimagelabel">PassingYear</Label>
+				<TextField id="passingYearText" class="textField"></TextField>
+			</TableViewRow>
+			<TableViewRow id="collegeNameRow" class="row">
+				<Label id="collegeNamelabel" class="degreeyearnameimagelabel">CollegeName</Label>
+				<TextField id="collegeNameText" class="textField"></TextField>
+			</TableViewRow>
+			<TableViewRow id="imageRow" class="row">
+				<Label id="imagelabel" class="degreeyearnameimagelabel">Image</Label>
+				<Button id="upload" class="upload">Upload</Button>
+			</TableViewRow>
+			<TableViewRow id="submitRow" class="row">
+				<Button id="submit" class="submit">Submit</Button>
+			</TableViewRow>
+			 </TableView>
+	  
+	</Window>
+</Alloy>

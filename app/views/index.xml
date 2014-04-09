@@ -1,0 +1,10 @@
+<Alloy>
+	<TabGroup id="tabg" class="tabg" >
+		<Tab id="tab1" title="Personal" >
+			<Require src="win1"></Require>
+		</Tab>
+		<Tab id="tab2" title="Educational" >
+			<Require src="win2"></Require>
+		</Tab>
+	</TabGroup>
+</Alloy>

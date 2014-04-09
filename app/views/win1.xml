@@ -1,0 +1,37 @@
+<Alloy>
+	<Window id="win1" class="win1">
+		<Slider id="slide1" class="slide1"></Slider>
+		<TableView id="tableview" class="tableview">
+			<TableViewRow id="firstNameRow" class="row">
+				<Label id="firstNamelabel" class="namegenderdobaboutlabel">FirstName</Label>
+				<TextField id="firstNameText" class="textField"></TextField>
+			</TableViewRow>
+			<TableViewRow id="lastNameRow" class="row">
+				<Label id="lastNamelabel" class="namegenderdobaboutlabel">LastName</Label>
+				<TextField id="lastNameText" class="textField"></TextField>
+			</TableViewRow>
+			<TableViewRow id="gender" class="row">
+				<Label id="genderlabel" class="namegenderdobaboutlabel">Gender</Label>
+				<View id="genderContainer" class="genderContainer">
+					<View id="genderContainer1" class="genderContainer1">
+						<Switch id="male" class="switch" value="true"></Switch>
+						<Label id="maleswitchLabel" class="switchLabel">Male</Label>
+					</View>
+					<View id="genderContainer2" class="genderContainer2">
+						<Switch id="female" class="switch" value="false"></Switch>
+						<Label id="femaleswitchLabel" class="switchLabel">Female</Label>
+					</View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="dobRow" class="row">
+				<Label id="doblabel" class="namegenderdobaboutlabel">DoB</Label>
+				<TextField id="dobText" class="textField"></TextField>
+				</TableViewRow>
+				<TableViewRow id="aboutYourselfRow" class="row">
+				<Label id="aboutlabel" class="namegenderdobaboutlabel">AboutYourself</Label>
+				<TextArea id="aboutTextA" class="aboutTextA"></TextArea>
+			</TableViewRow>
+		</TableView>
+
+	</Window>
+</Alloy>
